@@ -41,7 +41,7 @@ for id in range (10):
 
 	# Save the tag g
 	# enerated
-	tag_name = "../Markers/" + aruco_type + "_" + str(id) + ".png"
+	tag_name = "../../Markers/" + aruco_type + "_" + str(id) + ".png"
 	cv2.imwrite(tag_name, tag)
 	cv2.imshow("ArUCo Tag", tag)
 
